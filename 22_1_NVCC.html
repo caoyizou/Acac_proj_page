@@ -300,12 +300,13 @@
       <!-- TODO: Replace with your video description -->
         <div class="content has-text-justified">
           <pre><code>
-          # SCPI - Standard Commands for Programming Instruction
-          # Device Configuration Code Samples
+    # SCPI - Standard Commands for Programming Instruction
+    # IEEE 488.2
+    # Device Configuration Code Samples
 
-          device = tcpip(hostname, instrument num)
-          ByteOrder / BufferSize / DwellTime / nPoints / 
-          STATe ON / STATe OFF
+    device = tcpip(hostname, instrument port)
+    ByteOrder / BufferSize / DwellTime / nPoints / 
+    STATe ON / STATe OFF
           </code></pre>
         </div>
         
@@ -325,13 +326,18 @@ function hello() {
   <div class="container is-max-desktop">
     <div class="hero-body">
       <!-- TODO: Replace with your teaser video -->
-      <h2 class="title">Programming for Microwave Source</h2>
+      <h2 class="title">Programming for Oscilloscope</h2>
       <!-- TODO: Replace with your video description -->
         <div class="content has-text-justified">
           <pre><code>
-    function hello() {
-      console.log("Hello World!");
-    }
+    # SCPI - Standard Commands for Programming Instruction
+    # IEEE 488.2
+    # Device Configuration Code Samples
+
+    device = tcpip(hostname, instrument port)
+    *IDN / *RST / *TRG / 
+    ByteOrder / BufferSize / TimeOut / Aquire /
+    WaveForm / Preamble Block
           </code></pre>
         </div>
         
